@@ -1,0 +1,142 @@
+body {
+    background-image: url('images/bus-g358e5d812_640.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1367px 800px;
+  }
+  nav.nav-bar{
+      background-color: #00001a;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-transform: UPPERCASE;
+    font-size: 110%;
+    display:inline;
+  }
+  
+  li {
+    float: left;
+    width: 225px;
+  
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: gray;
+  }
+  .container{
+   display: block;
+      margin: 100px 0px 0px 0px;
+  }
+  div.none{
+      display: none;
+  }
+  .inline:hover .none{
+      display: block;
+      background-color: black;
+  }
+  .active{
+    background-color:#111;
+    }
+  h1 {
+    font-size: 600%;
+    text-align: center;
+    text-transform: UPPERCASE;
+    padding-top: 100px;
+  }
+  .row {
+      height: auto;    
+      border-style:solid;
+      border-width:1px;  
+      border-color:gray;
+      border-radius: 30px;
+      height: 370px;
+      margin: 100px 0px 10px 445px;
+      max-width: 500px;
+  }
+  .form-class {
+      text-align: center;
+      position: absolute;
+      left: 545px;
+      top: 170px;
+      
+  }
+  .form-control{
+    width: 100%;
+    height: 45px;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .form-group {
+      margin: 20px 0px 30px 0px;
+      font-size: larger;
+      text-align: left;
+  }
+  input[type=file] {
+      padding: 3.6px 0px 4px 3px;
+  }
+  select#formph{
+      height: 30px;
+      background-color: white;
+      display: inline;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+  }
+  .formph {
+    width: 75%;
+    height: 30px;
+    background-color: white;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  #birthday {
+      width: 95%;
+      height: 30px;
+      background-color: white;
+      display: inline-block;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      text-transform: UPPERCASE;
+  }
+  .formpage{
+      margin: 0px -9px;
+  }
+  div.Head{
+      text-align: left;
+      width: 100px;
+      display: inline;
+  }
+  div.value{
+      width: 100px;
+      display: inline;
+      text-align: left;
+  }
+  .left {
+      text-align :left;
+  }
+  button{
+      text-transform: UPPERCASE;
+      padding: 0px;
+  }
+  .abtn{
+      color: #ccc;
+      background-color: gray;
+      height: 100%;
+  }

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+body {
+  <!-- background-image: url('images/671500.jpg'); -->
+  <!-- background-repeat: no-repeat; -->
+  <!-- background-position: center; -->
+  <!-- background-attachment: fixed; -->
+  <!-- background-size: 1367px 1000px; -->
+  background-size: cover;	
+  background-color: #4d4d4d;
+}
+
+ul {
+
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-transform: UPPERCASE;
+  font-size: 110%;
+}
+
+li {
+  float: left;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.active{
+  background-color:#111;
+  }
+.center {
+  text-align: center;
+}
+ 
+.detail{
+  font-size: 190%;
+}
+h1 {
+  font-size: 600%;
+  text-align: center;
+  text-transform: UPPERCASE;
+  padding-top: 100px;  
+}
+#detail {
+  padding: 50px 390px 50px 390px;
+}
+.left {
+  float:left;
+}
+</style>
+</head>
+<body>
+<nav class="nav-bar">
+<!-- <img src="images/busimage.jpg" alt="bus" height="500" width="500">  -->
+	<ul>
+	  <li><a href="homepage.html">Home</a></li>
+	  <li><a class="active" href="UserDetailPage.html">My Details</a></li>
+	  <li><a href="#passdetail">Pass Details</a></li>
+	  <li><a href="#busdetails">Bus Details</a></li>
+	  <li><a href="#changepass">Change Password</a></li>
+	  <li><a href="#newpass">Create An Pass</a></li>
+	  <li><a href="#repass">Re-New An Pass</a></li>
+	  <li><a href="#Logout">Logout</a></li>
+	</ul>
+</nav>
+
+<section class="userdetails">
+<div class="container">
+<div class="detail center">
+	<h2 class="head"> User Details </h2>
+	<div id="detail">
+	<div class="profile"><label for="file"> Upload Profile Photo Here </label>
+	<input type="file" name="file" id="file"></div>
+	<div class="left"> User Id : </div>
+	<div class="left"> Name : </div>
+	<div class="left"> Mobile Number : </div>
+	<div class="left"> Age : </div>
+	<label> Mobile Number :</label><br>
+	<select id="ph">
+		<option>+91</option>
+		<option>+92</option>
+		<option>+93</option>
+		<option>+94</option>
+	</select>
+	<input type="phonenumber" name="Mnum" id="num" placeholder="Enter your Mobile Number"><br><br>
+	<input type="radio" name="male" id="male"><span id="male">&nbsp;Male</span>&nbsp;&nbsp;
+	<input type="radio" name="male" id="male"><span id="male">&nbsp;Female</span>&nbsp;&nbsp;
+	<input type="radio" name="male" id="male"><span id="male">&nbsp;Others</span>&nbsp;&nbsp;<br><br>
+	<label> Date of Birth : </label><br>
+	<input type="date" size="30" class="form-control"min="1960-01-01" max="2015-01-01">
+	</div>
+</div>
+</div>
+</section>
+
+</body>
+</html>

@@ -1,0 +1,70 @@
+body {
+    background-image: url('images/auto-2583303_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1366px 790px;
+  }
+  nav.nav-bar{
+      background-color: #778899;
+      height: 50px;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-transform: UPPERCASE;
+    font-size: 110%;
+    display: inline;
+  }
+  
+  li {
+    float: left;
+    width: 225px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .active{
+    background-color:#111;
+  }
+  div.none{
+      display: none;
+  }
+  .inline:hover .none{
+      display: block;
+      background-color: black;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-color: inherit;
+    border-style: solid;
+    margin: 15px 0px 0px 0px;
+  }	
+  td, th {
+    border: 1px solid #A9A9A9;
+    text-align: left;
+    padding: 8px;
+    border-color: inherit;
+    border-style: solid;
+    border-width: 1px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .page{
+      margin: 170px 0px 0px 0px;
+  }

@@ -1,0 +1,62 @@
+body {
+  background-image: url('images/bus-g358e5d812_640.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 1367px 800px;
+}
+@media only screen and (max-width: 767px) {
+  body {
+    background-image: url('images/671500.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+}
+nav.nav-bar{
+  background-color: #00001a;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-transform: UPPERCASE;
+  font-size: 110%;
+  display:inline;
+}
+  
+li {
+  float: left;
+  width: 225px;
+}  
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: gray;
+}
+.container{
+  display: block;
+  margin: 100px 0px 0px 0px;
+}
+div.none{
+  display: none;
+}
+.inline:hover .none{
+  display: block;
+  background-color: black;
+}
+.active{
+  background-color:#111;
+}
+h1 {
+  font-size: 600%;
+  text-align: center;
+  text-transform: UPPERCASE;
+  padding-top: 100px;
+}

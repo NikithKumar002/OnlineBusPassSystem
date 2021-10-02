@@ -1,0 +1,113 @@
+body {
+  background-image: url('images/bus-g358e5d812_640.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 1367px 800px;
+}
+nav.nav-bar{
+  background-color: #00001a;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-transform: UPPERCASE;
+  font-size: 110%;
+  display:inline;
+}
+li {
+  float: left;
+  width: 225px;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover {
+  background-color: gray;
+}
+div.none{
+  display: none;
+}
+.inline:hover .none{
+  display: block;
+  background-color: black;
+}
+div.box {
+  width: 700px;
+  height: 500px;
+  margin: 100px 0px 0px 350px;
+}
+h1.text{
+  margin: 10px 0px 10px 0px;
+}
+h1 {
+  text-align: center;
+  text-transform: UPPERCASE;
+  padding-top: 0px;
+}
+.form-class {
+  position: absolute;
+  left: 550px;
+  top: 220px;
+  width: 290px;
+}
+.form-control{
+  width: 65%;
+  height: 30px;
+  background-color: #ccc;
+  display: inline;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.form-group {
+  margin: 10px 0px 10px 0px;
+  font-size: larger;
+}
+.form-check {
+  margin: 5px 0px 10px 0px;
+  position: absolute;
+  left: 190px;
+  top: 270px;
+}
+input[type=file] {
+  padding: 3.6px 0px 4px 3px;
+}
+select#formph{
+  height: 30px;
+  background-color: white;
+  display: inline;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+button#sub-btn{
+  width: 100%;
+  height: 45px;
+  background-color: #ddd;
+  border: none;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 10px;
+  text-transform: UPPERCASE;
+}
+button#sub-btn:hover{
+  background-color: #484848;
+  color: #ddd;
+}
+label {
+  color: black;
+  font-weight: 600;
+}
+.align {
+  width: 90px;
+}  

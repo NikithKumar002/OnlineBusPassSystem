@@ -1,0 +1,98 @@
+body {
+    background-image: url('images/bus-g358e5d812_640.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1367px 800px;
+}
+nav.nav-bar{
+    background-color: #00001a;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    text-transform: UPPERCASE;
+    font-size: 110%;
+    display:inline;
+}
+li {
+    float: left;
+    width: 225px;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: gray;
+}
+div.none{
+    display: none;
+}
+.inline:hover .none{
+    display: block;
+    background-color: black;
+} 
+h1 {
+    text-align: center;
+    text-transform: UPPERCASE;
+    margin-top:100px;
+}
+.form-class {
+    position: absolute;
+    left: 550px;
+    top: 200px;
+    width: 250px;
+}
+.form-control{
+    width: 100%;
+    height: 30px;
+    background-color: #A9A9A9;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.form-group {
+    margin: 8px 0px 8px 0px;
+    font-size: larger;
+}
+.form-check {
+    margin: 25px 0px 25px 0px;
+}
+input[type=file] {
+    padding: 3.6px 0px 4px 3px;
+}
+select#formph{
+    height: 30px;
+    background-color: white;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button#sub-btn{
+    background-color: #ddd;
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+button#sub-btn:hover{
+    background-color: #484848;
+    color: #ddd;
+}
+label {
+    color: black;
+    font-weight: 600;
+}

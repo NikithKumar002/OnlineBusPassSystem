@@ -1,0 +1,97 @@
+.form-class {
+	width: 500px;
+	height:950px;
+    margin: 150px 0px 100px 490px;
+}
+form#userform{
+    padding: 0px 0px 0px 25px;
+}
+#inputAddress{
+  width: 79%;
+  height: 50px;
+  background-color: white;
+  display: inline;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.address {
+	width: 65%;
+	height: 35px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+    background-color: white;
+}
+#birthday {
+	width: 54%;
+	height: 35px;
+	background-color: white;
+	display: inline;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	text-transform: UPPERCASE;
+}
+.form-group {
+	margin: 20px 0px 20px 0px;
+	font-size: larger;
+	text-align: left;
+}
+input[type=file] {
+    padding: 4px 0px 4px 3px;
+	width: 79%;
+    height: 30px;
+	border: 1px solid beige;
+	border-radius: 3px;
+}
+.formph {
+  width: 67.5%;
+  height: 35px;
+  background-color: white;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+select#formph{
+	height: 35px;
+	background-color: white;
+	display: inline;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+#user-id{
+	height: 34px;
+	width: 58.5%;
+}
+input#First_Name {
+    width: 58.5%;
+    height: 35px;
+}
+#Last_Name{
+	height: 34px;
+	width: 58.5%;
+}
+#Email{
+	height: 34px;
+	width: 58.5%;
+}
+#sub-btn {
+	width: 25%;
+	height: 35px;
+	margin: 30px 0px 0px 67px;
+}
+#can-btn {
+	width: 25%;
+	height: 35px;
+	margin: 30px 67px 0px 0px;
+}
+.form-check{
+	height: 150px;
+}
+button#update-btn{
+	height: 25%;
+    width: 25%;
+    margin: 0px 0px 0px 64px;
+}

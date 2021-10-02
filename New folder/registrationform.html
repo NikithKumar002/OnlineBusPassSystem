@@ -1,0 +1,97 @@
+<?php
+session_start();
+	include("connection.php");
+	include("function.php");
+	
+	
+	if($-SERVER['REQUEST_METHOD'] == "POST")
+	{
+		//something was posted
+		$First_Name = $_POST['Fname'];
+		$Last_Name = $_POST['Lname'];
+		$Email_ID = $_POST['email'];
+		$Password = $_POST['pass'];
+		
+		if(!empty($First_Name) && !empty($Last_Name) && !empty($Email_ID) && !empty($Password))
+		{
+			//save to database
+			$user_id = random_num(20);
+			$query = "insert into users (User_ID, First_Name, Last_Name, Email_ID, Password) values ('$User_ID', '$First_Name', '$Last_Name', '$Email_ID', '$Password');
+			
+			mysqli_query($query);
+			
+			header("Location: loginpage.php");
+			die;
+		}else {
+			echo "Please Enter Some Valid Information !";
+		}
+	
+	
+?>
+
+<!DOCTYPE html>
+<html lang="En">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content ="width = device-width, initial-scale  = 1">
+<title> REGISTRATION FORM </title>
+
+<link rel="stylesheet" href="css/register_style.css">
+
+</head>
+
+<body <!--/*background=url("C:\Users\Mr\OneDrive\Desktop\WEB\images\671500.jpg")-->>
+	<div class="container">
+	<h1 class="head"> REGISTRATION FORM </h1>
+		<div class="register">
+		<form method="post" id="register" action="registrationform.php">
+			<div>
+				<label id="firstname"> First Name :</label><br>
+				<input type="text" name="Fname" id="fname" required="required" placeholder="Enter your first name"><br><br>
+			</div>
+			<div>
+			   	<label> Last Name  :</label><br>
+				<input type="text" name="Lname" id="lname" placeholder="Enter your last name"><br><br>
+			</div>
+			<div>
+				<label> Email ID :</label><br>
+		   		<input type="email" name="email" id="userEmail" placeholder="Enter your Mail ID"><br><br>
+			</div>
+			<div>
+				<label> Password :</label><br>
+				<input type="password" name="pass" id="userPassword" placeholder="Enter your password"><br><br>
+			</div>
+			<div>
+				<label> Re-enter Password :</label><br>
+				<input type="password" name="repass" id="confirmPassword" placeholder="Re-Enter the Password "><br><br>
+			</div>
+			<div>
+				<button type="submit" onclick="createUser();" id="sub"> REGISTER </button>
+			</div>
+			<div class="signin">
+				<p>Already an Member? <a href="loginpage.html">Sign In</a></p>
+			</div>
+		</form>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+<!-- Script Tags -->
+
+<script src="js/registerform.js"></script>
+<!-- <script src="js/authregister.js"></script> -->
+
+
+
+
+
+</body>
+</html>

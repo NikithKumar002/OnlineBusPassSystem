@@ -1,0 +1,91 @@
+nav.nav-bar{
+	background-color: #00001a;
+}
+body {
+  background-image: url('images/bus-g358e5d812_640.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: 1367px 800px;
+}
+@media only screen and (max-width: 767px) {
+body {
+  background-image: url('images/bus-g358e5d812_640.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-transform: UPPERCASE;
+  font-size: 110%;
+  display:inline;
+}
+
+li {
+  float: left;
+  width: 225px;
+
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: gray;
+}
+.container{
+ display: block;
+	margin: 100px 0px 0px 0px;
+}
+div.none{
+	display: none;
+}
+.inline:hover .none{
+	display: block;
+	background-color: black;
+}
+.active{
+  background-color:#111;
+  }
+h1 {
+  font-size: 300%;
+  text-align: center;
+  text-transform: UPPERCASE;
+  padding-top: 20px;
+  color: black;
+}
+
+
+/*table*/
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+
+  border-color: inherit;
+  border-style: solid;
+}
+td, th {
+  border: 1px solid #A9A9A9;
+  text-align: left;
+  padding: 8px;
+  border-color: inherit;
+  border-style: solid;
+  border-width: 1px;
+}
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+tr:nth-child(odd) {
+  background-color: gray;
+}

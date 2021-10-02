@@ -1,0 +1,141 @@
+body {
+    background-image: url('images/auto-2583303_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1366px 790px;
+  }
+  nav.nav-bar{
+      background-color: #778899;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-transform: UPPERCASE;
+    font-size: 110%;
+    display: inline;
+  }
+  
+  li {
+    float: left;
+    width: 225px;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  .active{
+    background-color:#111;
+  }
+  div.none{
+      display: none;
+  }
+  .inline:hover .none{
+      display: block;
+      background-color: black;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border-color: inherit;
+    border-style: solid;
+    margin: 15px 0px 0px 0px;
+  }	
+  td, th {
+    border: 1px solid #A9A9A9;
+    text-align: left;
+    padding: 8px;
+    border-color: inherit;
+    border-style: solid;
+    border-width: 1px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  div.buttoncontainer{
+      height: 70px;
+      padding-top: 30px;
+      margin: 130px 0px 0px 0px;
+  }
+  .popup{
+      background: rgba(0, 0, 0, 0.6);
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      display: flex;
+      justify-content: center;
+      align-items:center;
+      display: none;
+  }
+  .popup-content{
+      height: 500px;
+      width: 500px;
+      background: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      position: relative;
+      overflow: scroll;
+  }
+  form{
+      margin: 0px 0px 0px 75px;
+  }
+  .form-class {
+      position: absolute;
+      left: 550px;
+      top: 200px;
+      width: 290px;
+  }
+  .form-control{
+    width: 60%;
+    height: 30px;
+    background-color: #ccc;
+    display: inline;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  .form-group {
+      margin: 10px 0px 10px 0px;
+      font-size: larger;
+  }
+  .form-check {
+      margin: 5px 0px 10px 0px;
+      position: absolute;
+      left: 190px;
+      top: 270px;
+  }
+  div.formbtn{
+      left: 242.7px;
+      bottom: -50px;
+      position: relative;
+  }
+  .createbtn{
+      width: 23%;
+      height: 35px;
+  }
+  .close{
+      position: absolute;
+      top: 2px;
+      right: 1px;
+      display: block;
+      width: 10px;
+      background: white;
+      padding: 8px;
+      border: 1px solid gray;
+      border-radius: 50px;
+      cursor: pointer;
+  }
+  
