@@ -19,7 +19,7 @@ include_once 'config/db.php';
 	<ul><li><a class="" href="adminindex.php"><i class="fa fa-home" style="font-size:20px"></i>Home</a></li></ul>
 	<ul><li><a href="adminprofile.php">Admin Details</a></li></ul>
 	<ul><li><div class="inline"><a href="">User Details</a>
-	<ul><div class="none"><span><a href="">Online Users</a></span>
+	<ul><div class="none"><span><a href="adminonlineregister.php">Online Users</a></span>
 	<span><a href="adminregister.php">Offline Users</a></span></ul></div></div></li></ul>
 	<ul><li><a href="detailsbus.php">Bus Details</a></li></ul>
 	<ul><li><div class="inline"><a href="">Pass Details</a>

@@ -33,7 +33,7 @@ session_start();
 				<button type="submit" name="loginbtn" id="btn-sub"> LOGIN </button>
 			</div>
 			<div class="">
-				<span class="span">Forgot Password<a href="registrationform.php">Click Here</a></span>
+				<span class="span">Forgot Password<a href="">Click Here</a></span>
 			</div>		
 			<div class="btn-register">
 				<span class="span">Not Yet Member?<a href="registrationform.php"> REGISTER </a></span>
